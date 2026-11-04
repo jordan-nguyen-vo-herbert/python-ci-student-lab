@@ -27,11 +27,6 @@ jobs:
         run: |
           pytest --maxfail=5 --disable-warnings
 
-      - ## name: Lint with flake8 # may have to remove
-        ## run: |
-          ## pip install flake8
-          ## flake8 .
-
       - name: Test coverage
         run: |
           pip install pytest-cov
