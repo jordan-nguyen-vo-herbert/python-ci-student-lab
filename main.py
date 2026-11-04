@@ -1,3 +1,3 @@
-# Application function 
+# Application function
 def add(x, y):
     return x + y
