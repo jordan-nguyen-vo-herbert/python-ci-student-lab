@@ -1,3 +1,3 @@
 # Application function
-def add(x, y): # Violated the two white spaces lint rule
+def add(x, y):
     return x + y
